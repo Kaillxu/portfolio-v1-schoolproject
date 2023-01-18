@@ -1,28 +1,144 @@
 body {
-	background-color: #e1d2b8;
+	background-image: url("../Images/server-rack-bg.jpg");
+	color:white;
+	text-shadow: 1px 1px 1px black;
 }
+
+.themed-grid-col{
+	backdrop-filter: blur(40px);
+	text-shadow: 8px 8px 8px black;
+}
+
+.collapse{
+	backdrop-filter: blur(1px);
+}
+
+.btn-primary{
+	display:block;
+	margin: 0 auto;
+}
+
 
 img {
 	width: 100%;
 	height:100vh;
 }
 
-.carousel-caption {
+#premier-carousel {
 	top: 50%;
 	transform: translateY(-50%);
 	bottom: initial;
 }
 
 .themed-grid-col{
-	border: 1px #000000;
+	border: 3px #000000;
 	border-style: dashed solid;
 	border-radius: 30px;
 }
 
 .carousel-caption{
-	text-shadow: 1px 1px 2px pink;
+	text-shadow: 2px 2px 1px black;
 }
 
 .carousel-caption a{
 	color:white;
 }
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-brand{
+	text-decoration: underline;
+}
+
+iframe{
+	border-radius:30px;
+
+}
+
+.themed-grid-col{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.skills-show img{
+	margin:40px;
+	object-fit: contain;
+	height:30%;
+	width:50%;
+    position: relative;
+    animation: floatText 1s;
+    animation-fill-mode: forwards;
+    border-radius:5px;
+}
+
+.skills-show-2{
+	margin:40px;
+	height:50%;
+	width:70%;
+    position: relative;
+    animation: floatText 1s;
+    animation-fill-mode: forwards;
+    border-radius:20px;
+    backdrop-filter: blur(10px);
+    text-shadow: 3px 3px 3px black;
+}
+
+.skills-show-2 a{
+    position: relative;
+    animation: floatText 2s;
+    animation-fill-mode: forwards;
+    text-shadow: 5px 5px 5px black;
+}
+
+.skills-show h2{
+	position: absolute;
+	animation: SkillsTitle 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes floatText{
+  from {
+    left: -100%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 20%;
+  }
+}
+
+@keyframes SkillsTitle{
+  from {
+    left: -100%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 0%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
