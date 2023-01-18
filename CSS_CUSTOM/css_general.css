@@ -85,21 +85,19 @@ iframe{
 
 .skills-show-2{
 	margin:40px;
-	height:50%;
+	height:70%;
 	width:70%;
-    position: relative;
-    animation: floatText 1s;
-    animation-fill-mode: forwards;
-    border-radius:20px;
-    backdrop-filter: blur(10px);
-    text-shadow: 3px 3px 3px black;
+  position: relative;
+  animation: floatText 1s;
+  animation-fill-mode: forwards;
+  border-radius:20px;
+  backdrop-filter: blur(10px);
+  text-shadow: 5px 5px 5px black;
 }
 
 .skills-show-2 a{
-    position: relative;
-    animation: floatText 2s;
-    animation-fill-mode: forwards;
-    text-shadow: 5px 5px 5px black;
+	color:white;
+	margin-left: 10%;
 }
 
 .skills-show h2{
