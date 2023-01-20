@@ -54,7 +54,7 @@ img {
 
 iframe{
 	border-radius:30px;
-
+  object-fit: contain;
 }
 
 .themed-grid-col{
@@ -84,9 +84,8 @@ iframe{
 }
 
 .skills-show-2{
-	margin:40px;
-	height:70%;
-	width:70%;
+	margin-top:40px;
+	max-width:60%;
   position: relative;
   animation: floatText 1s;
   animation-fill-mode: forwards;
@@ -123,6 +122,7 @@ iframe{
   position:absolute;
   animation: floatText 2s, fadein 3s;
   animation-fill-mode: forwards;
+  max-width: 68%;
 }
 
 
@@ -164,3 +164,21 @@ iframe{
   background-color: #212529;
 }
 
+#navbarsExample04{
+  background-color: #212529;
+}
+
+#liens{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+
+  position:absolute;
+  animation: floatText 2s, fadein 4s;
+  animation-fill-mode: forwards;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size:32px;
+  backdrop-filter: blur(10px)
+}
