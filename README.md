@@ -9,4 +9,4 @@ Have a nice day,
 Kaillxu
 
 
-PS : You can download it if you want to mess around with it (to make another portfolio for exemple)
+PS : Feel free download it if you want to mess around with it (to make another portfolio for exemple)
