@@ -1,4 +1,9 @@
-# portfolio
-A simple and functional portfolio using bootstrap.
+Just a student project :)
 
-It can be in french or in english (the translate button is directly on site)
+Goal :
+Making a simple and professional portfolio using bootstrap, it works in french and english (button in site)
+
+I don't think that I'll update this one in the future so, the few bugs will not be patched...
+
+Have a nice day,
+Kaillxu
