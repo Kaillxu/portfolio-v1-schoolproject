@@ -7,3 +7,6 @@ I don't think that I'll update this one in the future so, the few bugs will not 
 
 Have a nice day,
 Kaillxu
+
+
+PS : You can download it if you want to mess around with it (to make another portfolio for exemple)
